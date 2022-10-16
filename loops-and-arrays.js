@@ -5,6 +5,8 @@
 // ==========================================
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
+for(let i=0; i<names.length; i++){names[i] = names[i] + 'je';}
+console.log(names)
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -21,7 +23,22 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
+//stappenplan
+//even keer 2
+//oneven keer 3
+// if else statement
+//loggen
+
 const numbers = [2, 4, 5, 29, 38];
+for ( let i = 0; i < numbers.length; i++ )
+{
+    if ( numbers[i] % 2 === 0)
+    { numbers[i] *= 2 }
+    else
+    { numbers[i] *= 3}
+}
+console.log(numbers)
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
@@ -41,6 +58,11 @@ const numbers = [2, 4, 5, 29, 38];
 // ==========================================
 
 const squares = [30, 2, 8, 24, 11];
+for (let i = 0; i <squares.length; i++){
+//geen idee
+}
+console.log(squares);
+
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
